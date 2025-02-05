@@ -10,7 +10,7 @@ Dataset is get from CIFER-100 home page, but we will only use Motorcycles and Bi
 We use Sagemaker's inhouse image classification algorithm with easy to apply parameters and hyperparameter. You can chek more about this model here. 
 [Sagemaker Image Classification Model](https://docs.aws.amazon.com/sagemaker/latest/dg/image-classification.html).
 Note that this algorithm asks for a metadadata file, so we need to provide it.
-Training is on **ml.p2.xlarge** instance and the training job only takes aroung 700seconds with accuracy aroung 0.8
+Training is on **ml.p2.xlarge** instance and the training job only takes aroung 1141 seconds with accuracy around 0.8
 
 # Inference Endpoint
 After that we use sagemaker's endpoint option to deploy the model as a usable endpoint.
